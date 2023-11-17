@@ -2,6 +2,7 @@ package net.romchyk1219.redupdate;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.romchyk1219.redupdate.block.ModBlocks;
 import net.romchyk1219.redupdate.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,5 +15,6 @@ public class RedUpdate implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

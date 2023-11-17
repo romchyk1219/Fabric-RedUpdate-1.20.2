@@ -9,12 +9,14 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.romchyk1219.redupdate.RedUpdate;
+import net.romchyk1219.redupdate.block.ModBlocks;
 
 public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
+        entries.add(ModBlocks.RUBY_BLOCK);
     }
 
     private static Item registerItem(String name, Item item) {
