@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "redupdate:block/ruby_block"
+    }
+  }
+}
