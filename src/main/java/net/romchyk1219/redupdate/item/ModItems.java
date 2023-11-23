@@ -13,10 +13,15 @@ import net.romchyk1219.redupdate.block.ModBlocks;
 
 public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
+    public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
         entries.add(ModBlocks.RUBY_BLOCK);
+    }
+
+    private static void addItemsToFoodAndDrinkTabGroup(FabricItemGroupEntries entries) {
+        entries.add(TOMATO);
     }
 
     private static Item registerItem(String name, Item item) {
@@ -26,5 +31,6 @@ public class ModItems {
     public static void registerModItems() {
         RedUpdate.LOGGER.info("Registering Mod Items for " + RedUpdate.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemsToFoodAndDrinkTabGroup);
     }
 }
