@@ -17,11 +17,22 @@ public class ModItems {
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
-        entries.add(ModBlocks.RUBY_BLOCK);
     }
 
     private static void addItemsToFoodAndDrinkTabGroup(FabricItemGroupEntries entries) {
         entries.add(TOMATO);
+    }
+
+    private static void addItemsToBuildingBlocksTabGroup(FabricItemGroupEntries entries) {
+        entries.add(ModBlocks.RUBY_BLOCK);
+        entries.add(ModBlocks.RUBY_STAIRS);
+        entries.add(ModBlocks.RUBY_SLAB);
+        entries.add(ModBlocks.RUBY_BUTTON);
+        entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
+        entries.add(ModBlocks.RUBY_FENCE);
+        entries.add(ModBlocks.RUBY_FENCE_GATE);
+        entries.add(ModBlocks.RUBY_DOOR);
+        entries.add(ModBlocks.RUBY_TRAPDOOR);
     }
 
     private static Item registerItem(String name, Item item) {
@@ -32,5 +43,6 @@ public class ModItems {
         RedUpdate.LOGGER.info("Registering Mod Items for " + RedUpdate.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemsToFoodAndDrinkTabGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(ModItems::addItemsToBuildingBlocksTabGroup);
     }
 }

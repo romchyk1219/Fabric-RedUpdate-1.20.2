@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "redupdate:ruby"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "redupdate:ruby_pressure_plate"
+  },
+  "show_notification": true
+}

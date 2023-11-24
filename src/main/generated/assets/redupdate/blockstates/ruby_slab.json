@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "redupdate:block/ruby_slab"
+    },
+    "type=double": {
+      "model": "redupdate:block/ruby_block"
+    },
+    "type=top": {
+      "model": "redupdate:block/ruby_slab_top"
+    }
+  }
+}

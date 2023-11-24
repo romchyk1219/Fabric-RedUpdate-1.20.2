@@ -2,5 +2,15 @@
   "item.redupdate.ruby": "Ruby",
   "item.redupdate.tomato": "Tomato",
 
-  "block.redupdate.ruby_block": "Block of Ruby"
+  "block.redupdate.ruby_block": "Block of Ruby",
+
+  "block.redupdate.ruby_stairs": "Ruby Stairs",
+  "block.redupdate.ruby_slab": "Ruby Slab",
+  "block.redupdate.ruby_button": "Ruby Button",
+  "block.redupdate.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.redupdate.ruby_fence": "Ruby Fence",
+  "block.redupdate.ruby_fence_gate": "Ruby Fence Gate",
+  "block.redupdate.ruby_wall": "Ruby Wall",
+  "block.redupdate.ruby_door": "Ruby Door",
+  "block.redupdate.ruby_trapdoor": "Ruby Trapdoor"
 }
