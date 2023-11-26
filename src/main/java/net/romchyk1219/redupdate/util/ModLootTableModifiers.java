@@ -168,7 +168,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.75f))
-                        .with(ItemEntry.builder(ModItems.RUBY))
+                        .with(ItemEntry.builder(ModItems.TOMATO))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 16.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -178,7 +178,38 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.75f))
-                        .with(ItemEntry.builder(ModItems.RUBY))
+                        .with(ItemEntry.builder(ModItems.TOMATO))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 16.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+
+
+            if(VILLAGE_BUTCHER_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.75f))
+                        .with(ItemEntry.builder(ModItems.TOMATO_SEEDS))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 16.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+
+            if(VILLAGE_FISHER_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.75f))
+                        .with(ItemEntry.builder(ModItems.TOMATO_SEEDS))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 16.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+
+            if(VILLAGE_SHEPHERD_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.75f))
+                        .with(ItemEntry.builder(ModItems.TOMATO_SEEDS))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 16.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
