@@ -1,7 +1,7 @@
-// 1.20.2	2023-11-26T13:52:20.5636321	RedUpdate/Model Definitions
+// 1.20.2	2023-11-26T13:58:54.8438947	RedUpdate/Model Definitions
 ab0ef6287191399665117d64ca2254fb6f3ffe1a assets\redupdate\models\item\ruby_chestplate_quartz_trim.json
-7d96a7ea29f0858df1e1e43a0e2096dcb3dedf2d assets\redupdate\blockstates\ruby_trapdoor.json
 7a834a2ea5584964a80b132edb4fb649a915f065 assets\redupdate\models\item\ruby_trapdoor.json
+7d96a7ea29f0858df1e1e43a0e2096dcb3dedf2d assets\redupdate\blockstates\ruby_trapdoor.json
 cee694ecbc670a0f66fc972618e07d86d3365f01 assets\redupdate\models\block\ruby_fence_gate_open.json
 95ae3d77816eb047a97685d3b7d78efa3e536ece assets\redupdate\models\item\ruby_boots_iron_trim.json
 5fe1698a72f49a1313e9a23c83df93b119bdad1a assets\redupdate\blockstates\ruby_button.json
@@ -9,8 +9,8 @@ df92ce587504967d1d2af35720a087591e40da03 assets\redupdate\models\block\ruby_wall
 417bc2613effe6bd6c5000779ad1accc1e815fbd assets\redupdate\models\item\ruby.json
 bb2d95c3c17bcac1e718fa83f08ab114d7b7a324 assets\redupdate\models\item\ruby_chestplate_emerald_trim.json
 3dae74e69ed7e9a3309722710529721bea06ebcc assets\redupdate\models\block\ruby_fence_inventory.json
-72dc1e4b467e0e3c3bd15e8a3423bec810894a06 assets\redupdate\models\block\ruby_door_top_right_open.json
 e548dbe073bb999a0f3ce8e4c5152801484399cb assets\redupdate\models\item\ruby_leggings_gold_trim.json
+72dc1e4b467e0e3c3bd15e8a3423bec810894a06 assets\redupdate\models\block\ruby_door_top_right_open.json
 be0319e043d52e2d6d4ded23c569630dcff3b08a assets\redupdate\blockstates\ruby_fence_gate.json
 5f7489a60e93331d5329d50a72a121d35eec8403 assets\redupdate\models\item\ruby_stairs.json
 bf5ea7399a5d24d5a9549ea061b498160f8787f2 assets\redupdate\models\item\ruby_chestplate.json
@@ -24,8 +24,8 @@ f531c41b5bfd554efaa1cbcda0a40aef1b1ad171 assets\redupdate\models\item\ruby_axe.j
 c35f92dbd8c05575c19c1630a30bdd2bd9cf7550 assets\redupdate\models\item\ruby_fence_gate.json
 ec8748dadd048e66841713a29fad544d1c9d1aff assets\redupdate\models\item\ruby_boots_gold_trim.json
 71c22335ec6ac12e395fc7b6b6b99697cc8b8a16 assets\redupdate\models\block\ruby_button.json
-ae936510ed850991f8da8a3f76fe294ef9c6388b assets\redupdate\models\block\ruby_stairs_inner.json
 1c57d4ac4f04c4078f4bb60c01dec562eaf39438 assets\redupdate\models\item\ruby_chestplate_redstone_trim.json
+ae936510ed850991f8da8a3f76fe294ef9c6388b assets\redupdate\models\block\ruby_stairs_inner.json
 a02e4367d181b1f3a765e4f7811650981f6e71c8 assets\redupdate\models\item\ruby_chestplate_amethyst_trim.json
 00f007dabdcd1fe4e5e17e3ac4acaed8df422d59 assets\redupdate\models\item\ruby_boots_lapis_trim.json
 d1f9bbca02ac06101f1cd906783ded458d91b7fd assets\redupdate\models\item\ruby_chestplate_iron_trim.json

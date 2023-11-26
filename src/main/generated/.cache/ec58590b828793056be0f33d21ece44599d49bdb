@@ -1,10 +1,14 @@
-// 1.20.2	2023-11-26T13:52:20.5860663	RedUpdate/Recipes
+// 1.20.2	2023-11-26T13:58:54.8498959	RedUpdate/Recipes
 31d108e1d65d348dfec5ba9cda1c724cf3b6b7b4 data\redupdate\advancements\recipes\building_blocks\ruby_button.json
 a5af63e38fbb200e488be7e0f756424cfacc94a2 data\redupdate\recipes\ruby_fence.json
+1fa4a3c0813ff91ddb7bd7e2ca68ce0dc693abc3 data\redupdate\recipes\ruby_leggings.json
 593f794082bd6ad53197ce937e9fef8380f19ea7 data\redupdate\recipes\ruby_sword.json
 996c44184cc0cfc1b96ca90e4719e6be8d558ad4 data\redupdate\advancements\recipes\building_blocks\ruby_stairs.json
 18387f32e99521025a5d0ee8bdb7c49d99cdb191 data\redupdate\recipes\ruby_shovel.json
+afeb0d4a228cff63cb24225f8fb855053273d19c data\redupdate\advancements\recipes\combat\ruby_leggings.json
+92ad5585022c872a7e444aeb90a544160351d3a2 data\redupdate\advancements\recipes\combat\ruby_boots.json
 e7a7efdf806319fdc891b227b4ee6663ae50245e data\redupdate\advancements\recipes\redstone\ruby_fence_gate.json
+6060a1c8723e5918f982c7ca82029f2248a17853 data\redupdate\advancements\recipes\combat\ruby_helmet.json
 2b50b8ec87f847cf7ce45a8de61118ce19253d93 data\redupdate\advancements\recipes\tools\ruby_hoe.json
 8f7910ae0d76fe2710544b581a568f4871df340f data\redupdate\advancements\recipes\decorations\ruby_pressure_plate.json
 7874a247ae4d25186d958df164a604e2d7688269 data\redupdate\advancements\recipes\decorations\ruby_slab.json
@@ -12,7 +16,9 @@ e7a7efdf806319fdc891b227b4ee6663ae50245e data\redupdate\advancements\recipes\red
 0472fbce6753a72be3c4b39ae232a3f881b20e0c data\redupdate\recipes\ruby_fence_gate.json
 277117d4400165b8580e6b3bd5dbc510cf5cd961 data\redupdate\recipes\ruby_axe.json
 5761ba64e6178d42941b3dfb0b9f049d0c4c8558 data\redupdate\advancements\recipes\tools\ruby_shovel.json
+16153da29d19c5162ee4723ed3bdd5da9adb6873 data\redupdate\recipes\ruby_helmet.json
 3cbdce15aacc24012185244727e2b13e9e1416a6 data\redupdate\advancements\recipes\redstone\ruby_door.json
+6c278508a11add41aeb99f73d95f7a14d485222c data\redupdate\recipes\ruby_chestplate.json
 4776c578543dc35831a38470659df99aead2a4b6 data\redupdate\recipes\ruby_door.json
 8e5fae2b2accbeee828a20b9e400a909f511594b data\redupdate\recipes\ruby_stairs.json
 6611cabc750ea9218484a16466ade700194d0023 data\redupdate\advancements\recipes\decorations\ruby_block.json
@@ -25,9 +31,11 @@ e7a7efdf806319fdc891b227b4ee6663ae50245e data\redupdate\advancements\recipes\red
 f314997be9a61cd442e0a39d6095390839f193b5 data\redupdate\recipes\ruby_wall.json
 1bddc68f36b4831622157340665bb90c3c69d272 data\redupdate\recipes\ruby_block.json
 0e1c45ef66a8ed733769ee82f95c08bad165295d data\redupdate\advancements\recipes\redstone\ruby_trapdoor.json
+e8de15c09fb38b0076bf391a7ae0d1348434af02 data\redupdate\recipes\ruby_boots.json
 f4773a96026cfac542e01e4ae829c2b124e8a049 data\redupdate\recipes\ruby_pressure_plate.json
 4aec8009ac5b1edeb6ca5beb843fdb167c7fc336 data\redupdate\recipes\ruby_button.json
 7d0db8883e35a0e45b52c614467bca3b93084940 data\redupdate\advancements\recipes\decorations\ruby_fence.json
 555195f48e32494483816971d7babf1c19f7a77f data\redupdate\recipes\ruby_hoe.json
 5f51049d39517382cd4c63e098f3fbc49cc97f01 data\redupdate\advancements\recipes\building_blocks\ruby.json
+381f6bb4078feff14a78c6cb45006918fbd9088d data\redupdate\advancements\recipes\combat\ruby_chestplate.json
 aa441ad9b6166d7576cf5c4ec12b8fcea1d4bb8c data\redupdate\recipes\ruby.json

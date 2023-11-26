@@ -1,11 +1,11 @@
-// 1.20.2	2023-11-26T13:52:20.5850657	RedUpdate/Block Loot Tables
+// 1.20.2	2023-11-26T13:58:54.8498959	RedUpdate/Block Loot Tables
 2b4c455c753018234562a18e5d222aeab6dcb040 data\redupdate\loot_tables\blocks\ruby_trapdoor.json
 73f6312bdd31f27244caee78a35edf98427a320c data\redupdate\loot_tables\blocks\ruby_block.json
 354014e3f0ee70d9db37a81099a8acff6c29c61b data\redupdate\loot_tables\blocks\ruby_slab.json
 6c0299034600944f6021fafcde3e0366703c56a1 data\redupdate\loot_tables\blocks\ruby_stairs.json
 893eddd06f028cd0542fe40761807b473a9ee59d data\redupdate\loot_tables\blocks\ruby_fence_gate.json
 f919e319eab756330724c0a21ad16abd715ff545 data\redupdate\loot_tables\blocks\ruby_fence.json
-d493d01a8b76681ca2931ac71a5e8d09bf61e2e4 data\redupdate\loot_tables\blocks\ruby_door.json
 18a2098b5a5eabe69d73e993cb18b8047c867c49 data\redupdate\loot_tables\blocks\ruby_wall.json
+d493d01a8b76681ca2931ac71a5e8d09bf61e2e4 data\redupdate\loot_tables\blocks\ruby_door.json
 11aa2789d2c0ede56d151110848586d6aba9d524 data\redupdate\loot_tables\blocks\ruby_button.json
 a4f254e6ed85ae9454b79d397ca551e3d1a6e356 data\redupdate\loot_tables\blocks\ruby_pressure_plate.json
