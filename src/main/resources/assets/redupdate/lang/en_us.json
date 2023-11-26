@@ -1,6 +1,14 @@
 {
   "item.redupdate.ruby": "Ruby",
+
   "item.redupdate.tomato": "Tomato",
+
+  "item.redupdate.ruby_pickaxe": "Ruby Pickaxe",
+  "item.redupdate.ruby_axe": "Ruby Axe",
+  "item.redupdate.ruby_shovel": "Ruby Shovel",
+  "item.redupdate.ruby_sword": "Ruby Sword",
+  "item.redupdate.ruby_hoe": "Ruby Hoe",
+
 
   "block.redupdate.ruby_block": "Block of Ruby",
 
