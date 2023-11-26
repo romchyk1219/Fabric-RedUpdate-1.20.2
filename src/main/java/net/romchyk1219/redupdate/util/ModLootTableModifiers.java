@@ -34,6 +34,12 @@ public class ModLootTableModifiers {
             new Identifier("minecraft", "chests/village/village_toolsmith");
     private static final Identifier VILLAGE_WEAPONSMITH_ID =
             new Identifier("minecraft", "chests/village/village_weaponsmith");
+    private static final Identifier VILLAGE_BUTCHER_ID =
+            new Identifier("minecraft", "chests/village/village_butcher");
+    private static final Identifier VILLAGE_FISHER_ID =
+            new Identifier("minecraft", "chests/village/village_fisher");
+    private static final Identifier VILLAGE_SHEPHERD_ID =
+            new Identifier("minecraft", "chests/village/village_shepherd");
 
     public static void modifyLootTables() {
         LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
@@ -143,6 +149,37 @@ public class ModLootTableModifiers {
                         .conditionally(RandomChanceLootCondition.builder(0.25f))
                         .with(ItemEntry.builder(ModItems.RUBY))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 9.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+
+
+            if(VILLAGE_BUTCHER_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.75f))
+                        .with(ItemEntry.builder(ModItems.TOMATO))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 16.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+
+            if(VILLAGE_FISHER_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.75f))
+                        .with(ItemEntry.builder(ModItems.RUBY))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 16.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+
+            if(VILLAGE_SHEPHERD_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.75f))
+                        .with(ItemEntry.builder(ModItems.RUBY))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 16.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
             }
