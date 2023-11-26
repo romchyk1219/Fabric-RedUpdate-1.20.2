@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "redupdate:ruby_helmet",
+    "redupdate:ruby_chestplate",
+    "redupdate:ruby_leggings",
+    "redupdate:ruby_boots"
+  ]
+}
