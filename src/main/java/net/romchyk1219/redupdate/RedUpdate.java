@@ -3,6 +3,7 @@ package net.romchyk1219.redupdate;
 import net.romchyk1219.redupdate.block.ModBlocks;
 import net.romchyk1219.redupdate.item.ModItems;
 import net.fabricmc.api.ModInitializer;
+import net.romchyk1219.redupdate.util.ModCustomTrades;
 import net.romchyk1219.redupdate.util.ModLootTableModifiers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,5 +18,6 @@ public class RedUpdate implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModLootTableModifiers.modifyLootTables();
+		ModCustomTrades.registerCustomTrades();
 	}
 }
