@@ -50,6 +50,6 @@ public class ModBlocks {
                 new BlockItem(block, new FabricItemSettings()));
     }
     public static void registerModBlocks() {
-        RedUpdate.LOGGER.info("Registering ModBlocks for " + RedUpdate.MOD_ID);
+        RedUpdate.LOGGER.info("Registering Mod Blocks for " + RedUpdate.MOD_ID);
     }
 }
